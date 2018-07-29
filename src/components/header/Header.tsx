@@ -12,8 +12,8 @@ export class Header extends Component {
         <MenuBar>
           <div className="logo" slot="header">react-boilerplate</div>
           <div className="menu-links" slot="links">
-            <MenuItem to="/home">About</MenuItem>
-            <MenuItem to="/typescript">TypesScript</MenuItem>
+            <MenuItem to="/">About</MenuItem>
+            <MenuItem to="/typescript">TypeScript</MenuItem>
             <MenuItem to="/react">React</MenuItem>
           </div>
         </MenuBar>

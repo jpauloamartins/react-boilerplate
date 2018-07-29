@@ -1,11 +1,13 @@
-a:link, a:visited {
-  float: left;
-  line-height: 50px;
-  padding: 0 10px;
-  color: #FFF;
-  font-weight: normal;
-}
+.menu-links {
+  a:link, a:visited {
+    float: left;
+    line-height: 50px;
+    padding: 0 10px;
+    color: #FFF;
+    font-weight: normal;
+  }
 
-a:hover, .router-link-exact-active {
-  background: #616161;
+  a:hover, .router-link-exact-active {
+    background: #616161;
+  }
 }

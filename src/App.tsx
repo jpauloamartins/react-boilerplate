@@ -5,6 +5,8 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import { AsyncComponent } from "./components/AsyncComponent";
 import { Home } from "./pages/Home/Home";
+import { TypeScriptIntro } from "./pages/Home/TypeScriptIntro";
+import { ReactIntro } from "./pages/Home/ReactIntro";
 
 import "./assets/style/base";
 
@@ -34,8 +36,8 @@ export class AppBase extends Component {
           {/*<Route exact path="/typescript" component={tsAsyncComponent} /> */}
           {/* <Route exact path="/react" component={reactAsyncComponent} /> */}
           <Route exact path="/" component={Home} />
-          <Route exact path="/typescript" component={Home} />
-          <Route exact path="/react" component={Home} />
+          <Route exact path="/typescript" component={TypeScriptIntro} />
+          <Route exact path="/react" component={ReactIntro} />
         </Switch>
       </BrowserRouter>
     );
