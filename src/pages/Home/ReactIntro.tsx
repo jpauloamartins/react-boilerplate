@@ -3,10 +3,10 @@ import { Component } from "react";
 
 export class ReactIntro extends Component {
 
-    render() {
-        return (
-            <div>React - Hello React!</div>
-        );
-    }
+  render() {
+    return (
+      <div>React - Hello React!</div>
+    );
+  }
 
 }

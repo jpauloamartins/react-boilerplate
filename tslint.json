@@ -1,12 +1,35 @@
 {
-    "rules": {
-        "adjacent-overload-signatures": true,
-        "ban-comma-operator": true,
-        "class-name": true,
-        "semicolon": [true, "always"],
-        "trailing-comma": [true, {
-            "multiline": "always",
-            "singleline": "never"
-        }]
-    }
+  "extends": ["tslint-react"],
+  "rules": {
+    "adjacent-overload-signatures": true,
+    "array-type": {
+      "options": ["array"]
+    },
+    "arrow-parens": true,
+    "ban-comma-operator": true,
+    "class-name": true,
+    "eofline": true,
+    "indent": [true, "spaces", 2],
+    "jsx-alignment": true,
+    "jsx-curly-spacing": "always",
+    "jsx-boolean-value": false,
+    "jsx-equals-spacing": false,
+    "jsx-no-bind": true,
+    "jsx-no-lambda": true,
+    "jsx-no-string-ref": true,
+    "jsx-self-close": true,
+    "jsx-space-before-trailing-slash": true,
+    "jsx-wrap-multiline": true,
+    "linebreak-style": [true, "LF"],
+    "max-classes-per-file": [true, 1],
+    "max-line-length": [true, {
+      "limit": 80
+    }],
+    "no-trailing-whitespace": true,
+    "semicolon": [true, "always"],
+    "trailing-comma": [true, {
+      "multiline": "always",
+      "singleline": "never"
+    }]
+  }
 }
