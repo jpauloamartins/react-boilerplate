@@ -1,0 +1,39 @@
+footer {
+  padding: 10px;
+  background: #424242;
+  color: #FFF;
+  display: flex;
+
+  div.right {
+    a {
+      display: block;
+      float: left;
+    }
+  }
+
+  div.left {
+    flex: 1 0 auto;
+
+    .join-react {
+      color: #FFF;
+      line-height: 35px;
+    }
+  }
+
+  .github, .react {
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 35px 35px;
+    margin-left: 10px;
+  }
+
+  .github {
+    background-image: url('../../assets/images/github.svg');
+  }
+
+  .react {
+    background-image: url('../../assets/images/react.png');
+  }
+}

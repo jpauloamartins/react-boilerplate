@@ -1,0 +1,11 @@
+a:link, a:visited {
+  float: left;
+  line-height: 50px;
+  padding: 0 10px;
+  color: #FFF;
+  font-weight: normal;
+}
+
+a:hover, .router-link-exact-active {
+  background: #616161;
+}
