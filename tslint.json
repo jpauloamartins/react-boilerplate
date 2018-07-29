@@ -1,0 +1,12 @@
+{
+    "rules": {
+        "adjacent-overload-signatures": true,
+        "ban-comma-operator": true,
+        "class-name": true,
+        "semicolon": [true, "always"],
+        "trailing-comma": [true, {
+            "multiline": "always",
+            "singleline": "never"
+        }]
+    }
+}
