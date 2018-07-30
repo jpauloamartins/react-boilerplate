@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Component } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { LocationDescriptor } from "history";
 
 import "./MenuItemStyle";
@@ -17,9 +17,9 @@ export class MenuItem extends Component<IProps, IState> {
     const { to } = this.props;
 
     return (
-      <Link to={to}>
+      <NavLink exact to={to}>
         { this.props.children }
-      </Link>
+      </NavLink>
     );
   }
 
